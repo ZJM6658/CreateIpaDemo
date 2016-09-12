@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152594E91D86DB0300E83365 /* VC_Root.m in Sources */ = {isa = PBXBuildFile; fileRef = 152594E81D86DB0300E83365 /* VC_Root.m */; };
 		15591B1B1CE56CFD0003B99A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15591B1A1CE56CFD0003B99A /* main.m */; };
 		15591B1E1CE56CFD0003B99A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15591B1D1CE56CFD0003B99A /* AppDelegate.m */; };
 		15591B261CE56CFD0003B99A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15591B251CE56CFD0003B99A /* Assets.xcassets */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		13975CD5FA65CB099E1808C9 /* Pods-MyOwnDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOwnDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyOwnDemo/Pods-MyOwnDemo.release.xcconfig"; sourceTree = "<group>"; };
+		152594E71D86DB0300E83365 /* VC_Root.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Root.h; sourceTree = "<group>"; };
+		152594E81D86DB0300E83365 /* VC_Root.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Root.m; sourceTree = "<group>"; };
 		15591B161CE56CFD0003B99A /* MyOwnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOwnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15591B1A1CE56CFD0003B99A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15591B1C1CE56CFD0003B99A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 			children = (
 				15591B1C1CE56CFD0003B99A /* AppDelegate.h */,
 				15591B1D1CE56CFD0003B99A /* AppDelegate.m */,
+				152594E71D86DB0300E83365 /* VC_Root.h */,
+				152594E81D86DB0300E83365 /* VC_Root.m */,
 				15591B251CE56CFD0003B99A /* Assets.xcassets */,
 				15591B271CE56CFD0003B99A /* LaunchScreen.storyboard */,
 				15591B2A1CE56CFD0003B99A /* Info.plist */,
@@ -354,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152594E91D86DB0300E83365 /* VC_Root.m in Sources */,
 				15591B1E1CE56CFD0003B99A /* AppDelegate.m in Sources */,
 				15591B1B1CE56CFD0003B99A /* main.m in Sources */,
 			);

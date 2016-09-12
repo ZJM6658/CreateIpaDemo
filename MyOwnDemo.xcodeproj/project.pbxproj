@@ -444,7 +444,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B7E20B4014193F7BBF8CD43D /* Pods-MyOwnDemo.preform.xcconfig */;
 			buildSettings = {
-				APP_BUNDLE_IDENTIFIER = cn.zhujiamin.pre;
 				APP_DISPLAY_NAME = "Demo预发版";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBeta;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MyOwnDemo/MyDemo.pch";
@@ -455,7 +454,7 @@
 				);
 				INFOPLIST_FILE = MyOwnDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhujiamin.MyOwnDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhujiamin.Pre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Preform;
@@ -569,13 +568,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 304E9363142594D8184FAA29 /* Pods-MyOwnDemo.debug.xcconfig */;
 			buildSettings = {
-				APP_BUNDLE_IDENTIFIER = cn.zhujiamin.dev;
 				APP_DISPLAY_NAME = "Demo开发版";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MyOwnDemo/MyDemo.pch";
 				INFOPLIST_FILE = MyOwnDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhujiamin.MyOwnDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhujiamin.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -584,13 +582,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 13975CD5FA65CB099E1808C9 /* Pods-MyOwnDemo.release.xcconfig */;
 			buildSettings = {
-				APP_BUNDLE_IDENTIFIER = cn.zhujiamin.Demo;
 				APP_DISPLAY_NAME = Demo;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MyOwnDemo/MyDemo.pch";
 				INFOPLIST_FILE = MyOwnDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhujiamin.MyOwnDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhujiamin.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
